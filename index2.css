@@ -327,7 +327,7 @@
     width:170px;
     text-align:center;
     border-radius:45px;
-    padding-top:15px;
+    padding-top:13px;
     font-weight:600;
     color:#fff;
 }
@@ -513,14 +513,22 @@
 #resume .middle {
     display: flex;
     margin:20px;
-    color:#fff;;
+    color:#fff;
+}
+
+#resume .middle .educ{
+    flex: 1;
+}
+
+#resume .middle .exp{
+    flex: 1;
 }
 
 #resume .middle .title {
     font-size:25px;
     font-weight:700;
     color:#f3f1f1;
-    margin:0px 10px 10px 10px;
+    margin:0px 20px 10px 20px;
 } 
 
 #resume .middle .card{
@@ -559,6 +567,152 @@
     font-size:15px;
     margin:0px 0px 10px 10px;
     font-weight:400;
+}
+
+#resume .bottom {
+    margin:20px;
+    color:#fff;
+}
+
+#resume .bottom .progressbar{
+    display: flex;
+    /* justify-content: space-around; */
+    /* grid-template-columns: 1fr 1fr;
+    position: relative; */
+}
+
+#resume .bottom h2{
+    margin:0px 20px 20px 20px;
+}
+
+#resume .bottom .progressbar .left{
+    width:50%;
+    margin: 20px;
+}
+
+#resume .bottom .progressbar .right{
+    width:50%;
+    margin: 20px;
+
+}
+
+#resume .bottom .progressbar .info{
+    margin-bottom:10px;
+}
+
+#resume .bottom .progressbar .bar{
+    width:100%;
+    height:10px;
+    border-radius: 10px;
+    background-color: #121215;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#resume .bottom .progressbar .bar span{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #10A674;
+    border-radius: 10px;
+}
+
+#resume .bottom .progressbar .bar span{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #10A674;
+    border-radius: 10px;
+}
+
+#resume .bottom .progressbar .left .html .bar span{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    background-color: #10A674;
+    border-radius: 10px;
+}
+
+#resume .bottom .progressbar .left .css .bar span{
+    position: absolute;
+    width: 87%;
+    height: 100%;
+    background-color: #10A674;
+    border-radius: 10px;
+}
+
+#resume .bottom .progressbar .right .javascript .bar span{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    background-color: #10A674;
+    border-radius: 10px;
+}
+
+#resume .bottom .progressbar .right .figma .bar span{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: #10A674;
+    border-radius: 10px;
+}
+
+
+#resume .bottom .progressbar .left .html .bar span::before{
+    content: "95%";
+    position:absolute;
+    top:-25px;
+    left:95%
+
+}
+
+#resume .bottom .progressbar .left .css .bar span::before{
+    content: "87%";
+    position:absolute;
+    top:-25px;
+    left:105%
+
+}
+
+#resume .bottom .progressbar .right .javascript .bar span::before{
+    content: "85%";
+    position:absolute;
+    top:-25px;
+    left:105%
+
+}
+
+#resume .bottom .progressbar .right .figma .bar span::before{
+    content: "90%";
+    position:absolute;
+    top:-25px;
+    left:100%
+
+}
+
+#resume .btn{
+    align-self: center;
+    margin-bottom:40px;
+    background:#1F1D21 ;
+    border:1px solid #544f5a;
+    height:50px;
+    width:190px;
+    text-align:center;
+    border-radius:45px;
+    padding-top:11px;
+    font-size: 15px;
+    font-weight:400;
+    color:#544f5a;
+}
+
+#resume .btn a{
+    color:inherit;
+}
+
+#resume .btn:hover{
+    background-color:#544f5a ;
+    color:#fff;
+    transition: 0.5s ease;
 }
 
 /* Resume section end */
@@ -1009,6 +1163,23 @@
     #resume .middle {
         flex-direction: column;
         margin:0px;
+    }
+
+    #resume .bottom .progressbar{
+        flex-direction: column;
+        margin:0px;
+
+    }
+
+    #resume .bottom .progressbar .left{
+        width: 100%;
+        margin: 0px;
+    }
+
+    #resume .bottom .progressbar .right{
+        width: 100%;
+        margin:0px;
+
     }
 
     /* contact section */
