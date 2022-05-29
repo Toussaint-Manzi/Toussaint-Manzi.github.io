@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
     margin:0px;
     padding:0px;
     box-sizing:border-box;
@@ -8,11 +8,6 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-
-
-/* body{
-    background:#C4C4C4;
-} */
 
 /* Home section start */
 
@@ -71,7 +66,6 @@
 #HomeSection .sidebar .social-media a{
     display:block;
     width:30px; 
-    /* background:#121215; */
     height:30px;
     line-height: 30px;
     text-align: center;
@@ -102,7 +96,6 @@
 .tooltip {
     position: relative;
     display: inline-block;
-    /* border-bottom: 1px dotted black; */
   }
   
 .tooltip .tooltiptext {
@@ -576,9 +569,6 @@
 
 #resume .bottom .progressbar{
     display: flex;
-    /* justify-content: space-around; */
-    /* grid-template-columns: 1fr 1fr;
-    position: relative; */
 }
 
 #resume .bottom h2{
@@ -940,7 +930,6 @@
         width:100%;
         display: flex;
         flex-direction: column;
-        /* align-items: flex-start; */
         background-color: #000;
         opacity:95%;
         padding: 10px;
@@ -950,7 +939,6 @@
 
     #HomeSection .sidebar ul.nav-active{
         transform: translateY(0%);
-        z-index: -1;
     }
    
     #HomeSection .sidebar ul li {
@@ -958,7 +946,6 @@
         text-align: left;
         font-size: 15px;
         padding:10px 0px;
-
     }
 
     #HomeSection .sidebar ul li:last-child{
@@ -1153,9 +1140,7 @@
     /* whatIdo section */
 
     #whatIdo .middle {
-        /* display:grid; */
         grid-template-columns: 1fr;
-        /* margin: 0px; */
     }
 
     /* resume section */
