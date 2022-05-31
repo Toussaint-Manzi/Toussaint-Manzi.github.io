@@ -5,9 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank you page</title>
-    <style></style>
 </head>
-<body style="background-color: rgb(155, 153, 153); color: dimgrey;">
-    <h1>Thank you for sending us a message , we will get back to you shortly</h1>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    *{
+        box-sizing: border-box;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    body{
+        background-color: #181B18;
+        text-align: center;
+        color: #ebebeb;
+        position: relative;
+    }
+
+    h1{
+        /* position: absolute; */
+        /* align-self: center; */
+        width: 70%;
+        margin:100px auto;
+        border:1px solid antiquewhite;
+        box-shadow: 0px 0px 10px 10px rgb(0, 0, 0/1);
+        border:1px solid #010d13;
+        border-radius: 5px;
+        background-color: #010d13;
+        opacity:40%;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 400;
+        /* padding:3% 0% 0% 3%; */
+    }
+
+    .button{
+        position: absolute;
+        top:-70px;
+        left: 20px;
+        color:#fff;
+        border-radius: 5px;
+        border: 1px solid #0e8f64;
+        background-color:#14c58a ;
+        opacity:100%;
+        height:30px;
+        width:100px;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        padding-top:2px ;
+    }
+    
+    .button:hover{
+        background-color: #0e8f64;
+        transition: 0.5s;
+    }
+
+    a{
+        color: #fff;
+    }
+</style>
+<body>
+    <div class="button"><a href="../index.html#contact">Go Back</a></div>
+    <div><h1>Thank you for sending us a message , we will get back to you shortly</h1></div>
 </body>
 </html>
