@@ -1195,3 +1195,312 @@
         margin-bottom:50px;
     }
 }
+
+
+
+
+
+
+@media only screen and (max-width:867px){
+    /* Home section */
+
+    #HomeSection {
+        display:flex;
+        flex-direction: row;
+        position:relative;
+    }
+    
+    #HomeSection .sidebar {
+        position:fixed;
+        background: #0e0e11;
+        width:100%;
+        height:60px;
+        z-index: 1;
+    }
+    
+    #HomeSection .sidebar .profile-picture{
+        display: none;
+    }
+
+   
+    #HomeSection .sidebar h3 {
+        color:#f3f1f1;
+        margin-top:-10px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    #HomeSection .sidebar ul{
+        position: absolute;
+        right:0px;
+        top:60px;
+        height:auto;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+        opacity:95%;
+        padding: 10px;
+        transform: translateY(-160%);
+        transition:  0.5s ;
+    }
+
+    #HomeSection .sidebar ul.nav-active{
+        transform: translateY(0%);
+    }
+   
+    #HomeSection .sidebar ul li {
+        border-bottom: 1px solid #3a3939;
+        text-align: left;
+        font-size: 15px;
+        padding:10px 0px;
+    }
+
+    #HomeSection .sidebar ul li:last-child{
+        border:none;
+    }
+        
+    #HomeSection .sidebar .social-media {
+        position: relative;
+        justify-content:right;
+        margin-top:-80px; 
+        margin-right:50px ;
+    }
+    
+    #HomeSection .sidebar .social-media a{
+        height: 20px;
+        width:20px;
+        background-color: #0e0e11;
+        padding: 0px;
+        margin:5px;
+        color:#a09f9f;
+    } 
+
+    #HomeSection .sidebar .burger {
+        display: block;
+        cursor:pointer;
+        margin-top:5px;
+        margin-left: 5px;
+    }
+
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px,6px);
+    }
+
+    .toggle .line2 {
+        opacity: 0;
+    }
+
+    .toggle .line3 {
+        transform: rotate(45deg) translate(-5px,-6px);
+    }
+    
+    #HomeSection .main-content{
+        margin-top: 60px;
+        margin-left: 0px;
+        background:rgba(0, 0, 0, 0.7) url(./Images/christopher-gower-m_HRfLhgABo-unsplash.jpg) no-repeat;
+        background-blend-mode: darken;
+        background-size: cover;
+        width:100%;
+        height:100%;
+        padding-bottom: 300px;
+    }
+    
+    #HomeSection .main-content .centering{
+        margin-top: 200px;
+        margin-right:0px;
+        color:#fff;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* About me section */
+
+    #about {
+        margin-left:0px;
+        width:100%;
+    }
+
+    #about .header .background {
+       font-size:12vw; 
+    }
+
+    #about .header .over {
+        font-size:4vw;
+        margin:5.5% 30%;
+    }
+
+
+    #about .header .line{
+        width:10vw;
+        margin:11.5% 45%;
+    }
+
+
+    #about .middle{
+        flex-direction: column;
+    }
+
+
+    #about .middle .main{
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    #about .middle .credentials{
+        margin:50px 70px 0px 70px; 
+        padding: 0px 20px;
+
+    }
+
+    /* What I Do section */
+
+    #whatIdo {
+        margin-left:0px;
+        width:100%;
+        height:100%;
+    }
+
+    #whatIdo .header .background {
+        font-size:12vw; 
+    }
+ 
+    #whatIdo .header .over {
+         font-size:4vw;
+         margin:5.5% 30%;
+    }
+ 
+ 
+    #whatIdo .header .line{
+         width:10vw;
+         margin:11.5% 45%;
+    }
+
+
+    /* resume I Do section */
+
+    #resume {
+        margin-left:0px;
+        width:100%;
+        height:100%;
+    }
+
+    #resume .header .background {
+        font-size:12vw; 
+    }
+ 
+    #resume .header .over {
+         font-size:4vw;
+         margin:5.5% 30%;
+    }
+ 
+ 
+    #resume .header .line{
+         width:10vw;
+         margin:11.5% 45%;
+    }
+
+    /* contact I Do section */
+
+    #contact {
+        margin-left:0px;
+        width:100%;
+        height:100%;
+    }
+
+    #contact .header .background {
+        font-size:12vw; 
+    }
+ 
+    #contact .header .over {
+         font-size:4vw;
+         margin:5.5% 30%;
+    }
+ 
+ 
+    #contact .header .line{
+         width:10vw;
+         margin:11.5% 45%;
+    }
+
+    #contact .middle {
+        margin:0% 10%;
+    }
+
+    #contact .middle .right .input input {
+        width: 100%;
+    }
+}   
+
+@media only screen and (max-width:480px){
+    /* about section */
+
+    #about .middle .main{
+        margin:0px 5px;
+        padding:0px; 
+    }
+
+    #about .middle .credentials{
+        margin:50px 0px 0px 0px; 
+    }
+
+    /* whatIdo section */
+
+    #whatIdo .middle {
+        grid-template-columns: 1fr;
+    }
+
+    /* resume section */
+
+    #resume .middle {
+        flex-direction: column;
+        margin:0px;
+    }
+
+    #resume .bottom .progressbar{
+        flex-direction: column;
+        margin:0px;
+
+    }
+
+    #resume .bottom .progressbar .left{
+        width: 100%;
+        margin: 0px;
+    }
+
+    #resume .bottom .progressbar .right{
+        width: 100%;
+        margin:0px;
+
+    }
+
+    /* contact section */
+
+    #contact .middle {
+        display:flex;
+        flex-direction: column;
+        margin: 0px 10px;
+        padding-bottom: 50px;
+    }
+
+    #contact .middle .right{
+        order:1;
+        margin:0px;
+        text-align: center;
+    }
+
+    #contact .middle .left{
+        order:2;
+        align-self: center;
+        text-align: center;
+        margin-left:50px;
+    }
+
+    #contact .middle .right .input .btn {
+        margin-left: 0%;
+        margin-bottom:50px;
+    }
+}
+
