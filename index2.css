@@ -30,8 +30,14 @@
     height:150px;
     width: 150px;
     border-radius: 150px;
+    background: url("./Images/pp1.jpg") no-repeat;
+    background-size: 100% ;
+    margin:0px auto ;
     margin-bottom: 15px;
+
 }
+
+
 
 #HomeSection .sidebar h3 {
     color:#f3f1f1;
